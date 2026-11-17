@@ -1,4 +1,4 @@
-import 'package:dogwalk_app/features/location/presentation/screens/location-screen.dart';
+import 'package:dogwalk_app/features/welcome/presentation/welcome_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +11,8 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: LocationScreen(),
+      debugShowCheckedModeBanner: false,
+      home: WelcomeScreen(),
     );
   }
 }
